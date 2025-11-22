@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Large data folders
+Data Tables Step 4/
+property_data/
+geocode_output/
+Multimodal Research for Realestate/
+New folder/
+POTENTIAL/
+Not Required/
+partial/
+
+# Notebooks (optional - uncomment if you want to include them)
+notebook/
+notebook_copy/
+*.ipynb_checkpoints/
+
+# Research documents
+*.pdf
+*.doc
+*.docx
+*.rdf
+
+# MLflow
+mlruns/
+mlflow_plots/
+mlflow.db
+
+# Model artifacts
+catboost_info/
+*.pkl
+*.joblib
+*.model
+best_model.h5
+
+# Logs
+*.log
+geocoding.log
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+uv.lock
+.python-version
+
+# Keep these files (use ! to negate ignore)
+!*.py
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!README.md
+!requirements.txt
+!pyproject.toml
